@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mharris_ext}
-  s.version = "1.4.1"
+  s.version = "1.4.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Harris"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{TODO}
   s.email = %q{GFunk913@gmail.com}
   s.extra_rdoc_files = ["README", "LICENSE"]
-  s.files = ["VERSION.yml", "lib/mharris_ext", "lib/mharris_ext/benchmark.rb", "lib/mharris_ext/cmd.rb", "lib/mharris_ext/enumerable.rb", "lib/mharris_ext/fileutils.rb", "lib/mharris_ext/from_hash.rb", "lib/mharris_ext/gems.rb", "lib/mharris_ext/methods.rb", "lib/mharris_ext/regexp.rb", "lib/mharris_ext.rb", "test/mharris_ext_test.rb", "test/test_helper.rb", "README", "LICENSE"]
+  s.files = ["VERSION.yml", "lib/mharris_ext", "lib/mharris_ext/accessor.rb", "lib/mharris_ext/benchmark.rb", "lib/mharris_ext/cmd.rb", "lib/mharris_ext/enumerable.rb", "lib/mharris_ext/fileutils.rb", "lib/mharris_ext/from_hash.rb", "lib/mharris_ext/gems.rb", "lib/mharris_ext/methods.rb", "lib/mharris_ext/regexp.rb", "lib/mharris_ext/time.rb", "lib/mharris_ext.rb", "test/mharris_ext_test.rb", "test/test_helper.rb", "README", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/GFunk911/mharris_ext}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]

@@ -9,6 +9,8 @@ begin
     s.homepage = "http://github.com/GFunk911/mharris_ext"
     s.description = "TODO"
     s.authors = ["Mike Harris"]
+    s.add_dependency 'fattr'
+    s.add_dependency 'facets'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

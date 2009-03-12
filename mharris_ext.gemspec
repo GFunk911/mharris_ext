@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mharris_ext}
-  s.version = "1.4.0"
+  s.version = "1.4.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Harris"]
@@ -23,8 +23,14 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<fattr>, [">= 0"])
+      s.add_runtime_dependency(%q<facets>, [">= 0"])
     else
+      s.add_dependency(%q<fattr>, [">= 0"])
+      s.add_dependency(%q<facets>, [">= 0"])
     end
   else
+    s.add_dependency(%q<fattr>, [">= 0"])
+    s.add_dependency(%q<facets>, [">= 0"])
   end
 end

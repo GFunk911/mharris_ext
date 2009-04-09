@@ -3,6 +3,7 @@ module FromHash
     ops.each do |k,v|
       send("#{k}=",v)
     end
+    self
   end
   def initialize(ops={})
     from_hash(ops)

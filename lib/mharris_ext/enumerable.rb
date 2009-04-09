@@ -7,7 +7,7 @@ class Fixnum
 end
 
 module Enumerable
-  def sum
+  def sumx
     res = 0
     each { |x| res += x }
     res
